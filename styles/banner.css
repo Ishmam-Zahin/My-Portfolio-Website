@@ -3,3 +3,16 @@
 header{
     background-color: black;
 }
+header a:link{
+    color: rgb(4, 4, 255);
+}
+header a:visited{
+    color: rgb(255, 170, 170);
+}
+header a:focus{
+    color: rgb(244, 7, 7);
+}
+header a:hover{
+    color: rgb(244, 7, 7);
+    font-weight: bolder;
+}

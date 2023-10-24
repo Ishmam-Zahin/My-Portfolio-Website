@@ -3,3 +3,11 @@
 body{
     background-color: rgba(0, 0, 0, 0.326);
 }
+h1{
+    font-family: "Arial Black";
+    font-style: italic;
+    color: rgb(0, 0, 184);
+}
+h2{
+    color: rgb(0, 0, 67);
+}
