@@ -9,34 +9,32 @@ header{
     background-color: rgb(0, 0, 0);
 }
 
-header section.logo{
+header section.image{
     width: 20%;
 }
-
-header section.links{
-    width: 60%;
-    position: relative;
-    left: 30%;
-    bottom: 5em;
-}
 #home{
-    font-size: 300%;
+    font-size: 250%;
     position: absolute;
+    left: 40%;
+    top: 3.5%;
 }
 #aboutMe{
-    font-size: 300%;
+    font-size: 250%;
     position: absolute;
-    left: 20%;
+    left: 50%;
+    top: 3.5%;
 }
 #skills{
-    font-size: 300%;
+    font-size: 250%;
     position: absolute;
-    right: 30%;
+    left: 65%;
+    top: 3.5%;
 }
 #projects{
-    font-size: 300%;
+    font-size: 250%;
     position: absolute;
-    right: 0%;
+    left: 80%;
+    top: 3.5%;
 }
 header section.links nav a:link{
     color: blue;

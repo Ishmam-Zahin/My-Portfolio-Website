@@ -6,11 +6,8 @@ h1{
     color: rgb(13, 13, 131);
     font-style: italic;
 }
-article{
-    position: relative;
-}
 article div{
-    width: 65%;
+    width: 60%;
 }
 article aside{
     width: 25%;
