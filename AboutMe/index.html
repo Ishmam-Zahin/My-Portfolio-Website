@@ -9,43 +9,69 @@
 </head>
 
 <body>
-    <header role="banner">
-        <img src="..\images\logo.png" alt="logo">
-        <nav role="navigation">
-            <ul>
-                <li><a href="..\index.html" title="Navigation Links">Home</a></li>
-                <li><a href="index.html" title="Navigation Links">About Me</a></li>
-                <li><a href="..\Skills\index.html" title="Navigation Links">My Skills</a></li>
-                <li><a href="..\Projects\index.html" title="Navigation Links">My Projects</a></li>
-            </ul>
-        </nav>
-    </header>
+    <div id="container">
+        <header role="banner">
+            <section class="image">
+                <img src="..\images\logo.png" alt="logo" width="300" height="100">
+            </section>
+            <section class="links">
+                <nav role="navigation">
+                    <a href="..\index.html" title="Navigation Links" id="home">Home</a></li>
+                    <a href="index.html" title="Navigation Links" id="aboutMe">About Me</a></li>
+                    <a href="..\Skills\index.html" title="Navigation Links" id="skills">My Skills</a></li>
+                    <a href="..\Projects\index.html" title="Navigation Links" id="projects">My Projects</a></li>
+                </nav>
+            </section>
+        </header>
 
-    <article role="main">
-        <h1>About Myself</h1>
-        <section>
-            <h2>Introduction</h2>
-            <p>
-                My name is Md. Ishmam Zahin. I was born in 2001. My district is Lalmonirhat.
-            </p>
-        </section>
-        <section>
-            <h2>Education</h2>
-            <p>
-                I passed S.S.C with GPA 5.00.<br>
-                I passed H.S.C with GPA 5.00.<br>
-                Currently I am studing at University of Rajshahi in department of C.S.E.
-            </p>
-        </section>
-        <aside role="complementary">
-            <h2>See more about my friend's websites</h2>
-            <nav>
-                <ul>
-                    <li><a href="saidul">Saidul</a></li>
-                    <li><a href="aziz">Aziz</a></li>
-                </ul>
-            </nav>
-        </aside>
-    </article>
+        <article role="main">
+            <div>
+                <h1>About Myself</h1>
+                <section>
+                    <h2>Introduction</h2>
+                    <p>
+                        My name is Md. Ishmam Zahin. I was born in 2001. My district is Lalmonirhat.It is in Rangpur division.
+                    </p>
+                </section>
+                <section>
+                    <h2>Education</h2>
+                    <p>
+                        I passed my S.S.C from Lalmonirhat Govt High School. From Lalmonirhat Govt College I passed my H.S.C.
+                    </p>
+                </section>
+                <section>
+                    <h2>Qualifications</h2>
+                    <p>
+                        I passed S.S.C with GPA 5.00.<br>
+                        I passed H.S.C with GPA 5.00.<br>
+                        Currently I am studing at University of Rajshahi in department of C.S.E.
+                    </p>
+                </section>
+            </div>
+            <aside role="complementary">
+                <h2>See more about my friend's websites</h2>
+                <nav>
+                    <ul>
+                        <li><a href="saidul">Saidul</a></li>
+                        <li><a href="aziz">Aziz</a></li>
+                    </ul>
+                </nav>
+                <h2>See more about my district, division</h2>
+                <nav>
+                    <ul>
+                        <li><a href="saidul">Lalmonirhat</a></li>
+                        <li><a href="aziz">Rangpur</a></li>
+                    </ul>
+                </nav>
+                <h2>See more about my institutions</h2>
+                <nav>
+                    <ul>
+                        <li><a href="saidul">Lalmonirhat Govt. High School</a></li>
+                        <li><a href="aziz">Lalmonirhat Govt College</a></li>
+                    </ul>
+                </nav>
+            </aside>
+        </article>
+    </div>
 </body>
 </html>

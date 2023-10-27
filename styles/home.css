@@ -1,5 +1,20 @@
 @charset "utf-8";
 
-body{
-    background-color: rgba(0, 0, 0, 0.326);
+#ownerphoto{
+    position: absolute;
+    top: 30%;
+    left: 55%;
+    
+}
+.greetings{
+    position: absolute;
+    font-family: "Arial Black", sans-serif;
+    font-size: 300%;
+    top: 30%;
+    left: 10%;
+}
+#footer{
+    position: absolute;
+    top: 70%;
+    left: 10%;
 }

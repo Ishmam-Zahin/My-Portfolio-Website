@@ -1,18 +1,49 @@
 @charset "utf-8";
-
+article, aside, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.685);
+}
 header{
-    background-color: black;
+    background-color: rgb(0, 0, 0);
 }
-header a:link{
-    color: rgb(4, 4, 255);
+
+header section.logo{
+    width: 20%;
 }
-header a:visited{
-    color: rgb(255, 170, 170);
+
+header section.links{
+    width: 60%;
+    position: relative;
+    left: 30%;
+    bottom: 5em;
 }
-header a:focus{
-    color: rgb(244, 7, 7);
+#home{
+    font-size: 300%;
+    position: absolute;
 }
-header a:hover{
-    color: rgb(244, 7, 7);
-    font-weight: bolder;
+#aboutMe{
+    font-size: 300%;
+    position: absolute;
+    left: 20%;
+}
+#skills{
+    font-size: 300%;
+    position: absolute;
+    right: 30%;
+}
+#projects{
+    font-size: 300%;
+    position: absolute;
+    right: 0%;
+}
+header section.links nav a:link{
+    color: blue;
+}
+header section.links nav a:visited{
+    color: beige;
+}
+header section.links nav a:hover{
+    color: red;
 }

@@ -9,36 +9,38 @@
     </head>
 
     <body>
-        <header role="banner">
-            <img src="images\logo.png" alt="logo">
-            <nav role="navigation">
-                <ul>
-                    <li><a href="index.html" title="Navigation Links">Home</a></li>
-                    <li><a href="AboutMe\index.html" title="Navigation Links">About Me</a></li>
-                    <li><a href="Skills\index.html" title="Navigation Links">My Skills</a></li>
-                    <li><a href="Projects\index.html" title="Navigation Links">My Projects</a></li>
-                </ul>
-            </nav>
-        </header>
-        
-
-        <article role="main">
-            <section>
-                <img id="ownerphoto" src="images\siteOwner.png" alt="ishmam.zahin" title="site owner" width="325" height="300">
-            </section>
-            <p>Hi,<br>I am Ishmam Zahin<br>Web Designer</p>
-            <footer role="contentinfo">
-                <p>Social Links: </p>
-                <nav>
-                    <ul>
-                        <li><a href="https://www.facebook.com/profile.php?id=100088066370910"><img src="images\facebook.png" width="25" height="25"></a></li>
-                    </ul>
-                </nav>
-                <address>
-                    <p>Email him at <a href="mdishmamzahin@gmail.com">mdishmamzahin@gmail.com</a></p>
-                </address>
-            </footer>
-        </article>
+        <div id="container">
+            <header role="banner">
+                <section class="logo">
+                    <img src="images\logo.png" alt="logo" width="300" height="100">
+                </section>
+                <section class="links">
+                    <nav role="navigation">
+                        <a href="index.html" title="Navigation Links" id="home">Home</a></li>
+                        <a href="AboutMe\index.html" title="Navigation Links" id="aboutMe">About Me</a></li>
+                        <a href="Skills\index.html" title="Navigation Links" id="skills">My Skills</a></li>
+                        <a href="Projects\index.html" title="Navigation Links" id="projects">My Projects</a></li>
+                    </nav>
+                </section>
+            </header>
+            
+            <article role="main">
+                <section class="photo">
+                    <img id="ownerphoto" src="images\siteOwner.jpg" alt="ishmam.zahin" title="site owner">
+                </section>
+                <section class="greetings">
+                    <p  id="greetings"><i>Hi,</i><br>I am Ishmam Zahin<br>Web Designer</p>
+                </section>
+                <footer role="contentinfo" id="footer">
+                    <nav role="socialMedia">
+                        <p>Social Links: <a href="https://www.facebook.com/profile.php?id=100088066370910"><img src="images\facebook.png" width="25" height="25"></a></p>
+                    </nav>
+                    <address>
+                        <p>Email me at <a href="mdishmamzahin@gmail.com">mdishmamzahin@gmail.com</a></p>
+                    </address>
+                </footer>
+            </article>
+        </div>
 
     </body>
 </html>
