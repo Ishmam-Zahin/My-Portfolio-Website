@@ -15,9 +15,25 @@ article .intro .greetings{
     font-family: "Arial Black", sans-serif;
     color: rgb(228, 231, 233);
     margin-left: 30%;
-    margin-top: 10%;
+    margin-top: 15%;
     text-shadow: 3px 4px 10px;
 
+}
+article .intro footer{
+    /* border: 3px solid red; */
+    margin-left: 30%;
+}
+article .intro footer p{
+    /* border: 3px solid red; */
+    color: aliceblue;
+    
+}
+article .intro footer nav p a{
+    display: inline-block;
+    /* border: 3px solid red; */
+    margin-left: 20px;
+    box-shadow: 2px 2px 8px rgb(255, 127, 219);
+    /* margin-top: -50px; */
 }
 article .photo{
     /* border: 3px solid red; */
