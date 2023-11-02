@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+article{
+    /* border: 2px solid red; */
+    display: flex;
+    
+}
+
+.main{
+    /* border: 2px solid red; */
+    color: aliceblue;
+    width: 60%;
+}
+
+.main h1{
+    /* border: 2px solid red; */
+    width: fit-content;
+    margin-left: 35%;
+    /* margin-right: 50px; */
+    font-size: 30px;
+    font-family: "Arial Black", sans-serif;
+    font-style: italic;
+    color: rgb(0, 8, 255);
+    /* text-shadow: 0px 0px 20px white; */
+}
+
+.main .intro h2{
+    /* border: 2px solid red; */
+    color: aqua;
+}
+.main .edu h2{
+    /* border: 2px solid red; */
+    color: aqua;
+}
+.main .qlfy h2{
+    /* border: 2px solid red; */
+    color: aqua;
+}
+
+aside{
+    /* border: 2px solid red; */
+    color: aliceblue;
+    box-shadow: 0px 0px 10px rgb(255, 83, 221);
+    margin-left: 100px;
+    margin-top: 110px;
+    width: fit-content;
+    height: fit-content;
+}
+aside h2{
+    color: aqua;
+}
