@@ -9,6 +9,8 @@
     background-attachment: fixed;
     background-size: cover;
     height: 100vh;
+
+    /* border: 4px solid red; */
  }
  header{
    /* background-color: aliceblue; */
@@ -20,7 +22,7 @@
     /* background-color: aliceblue; */
     font-size: 64.8px;
     font-style: italic;
-    font-family: "Arial Black", sans-serif;
+    font-family: Sofia, "Arial Black", sans-serif;
     font-weight: bolder;
     color: rgb(250, 127, 232);
     text-shadow: 5px 5px 15px;
